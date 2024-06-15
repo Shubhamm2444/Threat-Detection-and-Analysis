@@ -1,15 +1,15 @@
-Threat Detection and Analysis for Expedia's SOC
+** Threat Detection and Analysis for Expedia's SOC
 Project Goal: Develop a Python-based system to improve threat detection and analysis efficiency for Expedia's SOC analysts, focusing on suspicious login attempts.
 
-Ethical Considerations:
+** Ethical Considerations:
 Data Privacy: Ensure log data anonymization or pseudonymization wherever possible.
 False Positives: Minimize false positives through careful threshold tuning and anomaly detection selection.
 Security: Securely handle log data with encryption and access control (least privilege) practices.
 
-Technical Approach:
+** Technical Approach:
 Log Collection (Note: Integrate with Expedia's existing tools)
 
-Utilize a SIEM tool or custom script (depending on Expedia's setup) to collect login attempt logs.
+** Utilize a SIEM tool or custom script (depending on Expedia's setup) to collect login attempt logs.
 Ensure logs capture essential details:
 Timestamps
 Usernames
